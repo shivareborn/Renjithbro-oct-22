@@ -393,6 +393,19 @@ gg.toast("💢ɪɴᴠɪꜱɪʙʟᴇ ɢʟᴏᴏ ᴡᴀʟʟ ᴏɴ💢")
 gg.setVisible(false)
 end
 
+function aim()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("h 4E 65 63 6B 62 6F 6E 65 5F 53 70 69 6E 65 31 42 61 73 65", gg.TYPE_BYTE)
+gg.getResults(1000)
+gg.toast("No Results Found..")
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("360", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("𝐀𝖎𝖒 𝖋𝖔ν 360")
+end
+
 local function status(b) return b and "   ⃢♎" or "♓⃢   " end
 local function HOME()
 local menu = gg.choice({
@@ -407,6 +420,7 @@ local menu = gg.choice({
 "【⚕️】📤𝕾𝖓𝖎𝖕𝖊𝖗 𝕷𝖔𝖔𝖙 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🧊𝐈𝖓𝖛𝖎𝖘𝖎𝖇𝖑𝖊 𝐆𝖑𝖔𝖔 ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】🎯𝐀𝖎𝖒 𝕱𝖔ν ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】💢 Exit"
 }, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐏𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 if menu == 1 then toggleGhost() end
@@ -420,7 +434,8 @@ if menu == 8 then Antena() end
 if menu == 9 then Loot() end
 if menu == 10 then white() end
 if menu == 11 then invisible() end
-if menu == 12 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
+if menu == 12 then aim() end
+if menu == 13 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
 end
 
 while true do
