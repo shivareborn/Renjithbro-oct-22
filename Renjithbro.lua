@@ -406,6 +406,16 @@ gg.processResume()
 gg.toast("ALL GUN AIMBOT ON🟢")
 end
 
+function recoil()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-7.1608877e24;1000;-1.30930378e25::9", gg.TYPE_FLOAT)
+gg.refineNumber("1000", gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("NO RECOIL 🔥")
+end
+
 local function status(b) return b and "   ⃢♎" or "♓⃢   " end
 local function HOME()
 local menu = gg.choice({
@@ -421,6 +431,7 @@ local menu = gg.choice({
 "【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🧊𝐈𝖓𝖛𝖎𝖘𝖎𝖇𝖑𝖊 𝐆𝖑𝖔𝖔 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🎯𝐀𝖎𝖒𝕭𝖔𝖙  ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】📲𝐑𝖊𝖈𝖔𝖎𝖑 ⁱⁿ ᵍᵃᵐᵉ",        
 "【⚕️】💢 Exit"
 }, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐏𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 if menu == 1 then toggleGhost() end
@@ -435,7 +446,8 @@ if menu == 9 then Loot() end
 if menu == 10 then white() end
 if menu == 11 then invisible() end
 if menu == 12 then aim() end
-if menu == 13 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
+if menu == 13 then recoil() end
+if menu == 14 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
 end
 
 while true do
