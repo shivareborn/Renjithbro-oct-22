@@ -429,11 +429,156 @@ local menu = gg.choice({
 "【⚕️】📍𝐀𝖓𝖙𝖊𝖓𝖆 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓📍ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】📤𝕾𝖓𝖎𝖕𝖊𝖗 𝕷𝖔𝖔𝖙 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
+function Headshot()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("h 08 00 00 00 00 00 60 40 CD CC 8C 3F 8F C2 F5 3C CD CC CC 3D 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F 33 33 13 40 00 00 B0 3F 00 00 80 3F 01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("h 08 00 00 00 00 00 60 40 CD CC 8C 3F 8F C2 F5 3C CD CC CC 3D 06 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 33 33 13 40 00 00 B0 3F 00 00 80 3F 01", gg.TYPE_BYTE)
+gg.clearResults()
+gg.toast("💢 ΛЩM ΛIMBӨƬ σи💢")
+end
+
+function antenna()
+gg.setRanges(32)
+gg.searchNumber("h B4 42 96 00 00 00 00 00 00 00 00 00 00 3F 00 00 80 3E 00 00 00 00 04 00 00 00 00 00 80 3F 00 00 20 41 00 00 34 42 01", 1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h B4 42 96 00 00 00 00 00 00 00 00 00 00 3B 00 00 80 3B 00 00 00 00 04 00 00 00 00 00 80 3F 00 00 20 41 00 00 34 42 01", 1)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("h 5C 43 00 00 28 42 00 00 B4 42 78 00 00 00 00 00 00 00 9A 99 19 3F 00 00 80 3E 00 00 00 00 04 00 00 00 00 00 80 3F 00 00 20 41 00 00 34 42 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F", 1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h 5C 43 00 00 28 42 00 00 B4 42 78 00 00 00 00 00 00 00 9A 99 19 3C 00 00 F5 3C 00 00 00 00 04 00 00 00 00 00 80 3F 00 00 20 41 00 00 34 42 01 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3F", 1)
+gg.clearResults()
+gg.toast("💢Uʅƚɾα Sɯιƚƈԋιɳɠ σи💢")
+end
+
+function night()
+gg.setRanges(32)
+gg.searchNumber(";bone_Spine",1,false,536870912,0,-1,0)
+gg.getResults(300)
+gg.editAll(";hip00",2)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("0.0;-0.03881515563;-0.00395374279:9", gg.TYPE_FLOAT)
+gg.refineNumber("-0.03881515563", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("0.2", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("0.07869631797;0.99689865112;1.0;1.0;1.0::17",16)
+gg.getResults(300)
+gg.editAll("-1.5",16)
+gg.clearResults()
+gg.searchNumber("0.98958933353;1.0;1.0;1.0::17",16)
+gg.getResults(300)
+gg.editAll("-1.5",16)
+gg.clearResults()
+gg.toast("💢𝕭𝖔𝖉у 𝐇𝖊𝖆𝖉𝖘𝖍𝖔𝖙 𝕺𝖓💢")
+end
+
+function Joystick()
+gg.getTargetInfo()
+gg.getRangesList("/data/app/~~tGpDHVPP3nLg-yqtPTyFeA==/com.gspace.android-Gm9GyFWD9g4rOeHn4KLgXg==/lib/arm64/libil2cpp.so")
+gg.getTargetInfo()
+gg.getRangesList("/data/app/~~tGpDHVPP3nLg-yqtPTyFeA==/com.gspace.android-Gm9GyFWD9g4rOeHn4KLgXg==/lib/arm64/libil2cpp.so")
+gg.toast("💢 𝖏𝖔у𝖘𝖙𝖎𝖈𝖐 𝕾𝖕𝖊𝖊𝖉 𝕺𝖓💢")
+gg.clearResults()
+gg.processResume()
+gg.setVisible(false)
+gg.clearResults()
+end
+
+function Antena()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('-0.30576485395;0.01430506539;-0.73534429073;1::13', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('3000', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('-0.2212036103;0.03038031235;-0.76885718107;1::13', gg.TYPE_FLOAT)
+gg.refineNumber('1', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('3000', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("💢𝐀𝖓𝖙𝖊𝖓𝖆 𝕾𝖍𝖔𝖚𝖑𝖉𝖊𝖗 𝕺𝖓💢")
+end
+
+function Loot()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";ingame/pickup/pickup_awm", gg.TYPE_WORD, nil, nil, nil, nil)
+gg.getResults(100)
+gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
+gg.clearResults()
+gg.toast("AWM LOCATION ON🔴️")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";ingame/pickup/pickup_m24", gg.TYPE_WORD, nil, nil, nil, nil)
+gg.getResults(100)
+gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
+gg.clearResults()
+gg.toast("M24 LOCATION ON🟠️")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";ingame/pickup/pickup_bm94", gg.TYPE_WORD, nil, nil, nil, nil)
+gg.getResults(100)
+gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
+gg.clearResults()
+gg.toast("M82B LOCATION ON️🟡")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber(";ingame/pickup/ammo/pickup_ammo_sng", gg.TYPE_WORD, nil, nil, nil, nil)
+gg.getResults(100)
+gg.editAll(";effects/vfx_inagme_laser_shop", gg.TYPE_WORD)
+gg.clearResults()
+gg.toast("AMMO LOCATION ON️🔵")
+gg.setVisible(false)
+gg.clearResults()
+gg.toast("ꜱɴɪᴩᴇʀ ɢᴜɴ ʟᴏᴄᴀᴛɪᴏɴ❤️‍🔥 𝐎𝐍")
+end
+
+function white()
+gg.setRanges(gg.REGION_VIDEO)
+gg.searchNumber("1072216622", 4)
+gg.getResults(gg.getResultsCount())
+gg.editAll("1147786543", 4)
+gg.clearResults(gg.getResultsCount())
+gg.searchNumber("h 00 00 70 40 00 00 00 3F", 1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h 00 00 70 40 66 66 48 42", 1)
+gg.clearResults(gg.getResultsCount())
+gg.toast("💢ᴡʜɪᴛᴇʙᴏᴅʏ & ᴅᴀʀᴋꜱᴋʏ💢")
+end
+
+function invisible()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("7209065;6357095;6619245;6357039;7536755;7536745;6357108;7602286;7602281;7143525;6881327;6619235;6357111;7077996;6422623;7209077;6619243;114:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(";effects/vfx_pet/vfx_petskill_robot", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("💢ɪɴᴠɪꜱɪʙʟᴇ ɢʟᴏᴏ ᴡᴀʟʟ ᴏɴ💢")
+gg.setVisible(false)
+end
+
+local function status(b) return b and "   ⃢♎" or "♓⃢   " end
+local function HOME()
+local menu = gg.choice({
+"👻 Ghost (Auto "..ARCH..")  " .. status(GhostON) .. "",
+"🪨 stone hack            " .. status(FloatPatchON) .. "",
+"📷 Camera Right           " .. status(CamRightON) .. "",
+"【⚕️】🎯ΛЩM ΛIMBӨƬ ˡᵒᵍⁱⁿ",
+"【⚕️】⚡Uʅƚɾα Sɯιƚƈԋιɳɠ ˡᵒᵍⁱⁿ",
+"【⚕️】😁𝖁𝖔𝖉у𝐇𝖊𝖆𝖉𝖘𝖍𝖔𝖙💀 ⁱⁿᵍᵃᵐᵉ",
+"【⚕️】🕹️𝖏𝖔у𝖘𝖙𝖎𝖈𝖐 𝕾𝖕𝖊𝖊𝖉🕹️ ⁱⁿᵍᵃᵐᵉ",
+"【⚕️】📍𝐀𝖓𝖙𝖊𝖓𝖆 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓📍ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】📤𝕾𝖓𝖎𝖕𝖊𝖗 𝕷𝖔𝖔𝖙 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓 ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🧊𝐈𝖓𝖛𝖎𝖘𝖎𝖇𝖑𝖊 𝐆𝖑𝖔𝖔 ⁱⁿ ᵍᵃᵐᵉ",
-"【⚕️】🎯𝐀𝖎𝖒𝕭𝖔𝖙  ⁱⁿ ᵍᵃᵐᵉ",
-"【⚕️】📲𝐑𝖊𝖈𝖔𝖎𝖑 ⁱⁿ ᵍᵃᵐᵉ",        
 "【⚕️】💢 Exit"
-}, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐏𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+}, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝕻𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 if menu == 1 then toggleGhost() end
 if menu == 2 then FloatPatch() end
 if menu == 3 then RightCamera() end
@@ -445,9 +590,7 @@ if menu == 8 then Antena() end
 if menu == 9 then Loot() end
 if menu == 10 then white() end
 if menu == 11 then invisible() end
-if menu == 12 then aim() end
-if menu == 13 then recoil() end
-if menu == 14 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
+if menu == 12 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
 end
 
 while true do
@@ -461,3 +604,4 @@ end
 else
 os.exit()
 end
+
