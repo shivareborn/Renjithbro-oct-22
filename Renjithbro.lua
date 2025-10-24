@@ -371,15 +371,12 @@ gg.toast("ꜱɴɪᴩᴇʀ ɢᴜɴ ʟᴏᴄᴀᴛɪᴏɴ❤️‍🔥 𝐎𝐍")
 end
 
 function white()
-gg.setRanges(gg.REGION_VIDEO)
-gg.searchNumber("1072216622", 4)
-gg.getResults(gg.getResultsCount())
-gg.editAll("1147786543", 4)
-gg.clearResults(gg.getResultsCount())
-gg.searchNumber("h 00 00 70 40 00 00 00 3F", 1)
-gg.getResults(gg.getResultsCount())
-gg.editAll("h 00 00 70 40 66 66 48 42", 1)
-gg.clearResults(gg.getResultsCount())
+gg.setRanges(5)
+gg.searchNumber("0000000ch;0000031h;000000bdh;40800000h::29", 4, false, 536870912, 0, -1)
+gg.searchNumber("40800000h", 4, false, 536870912, 0, -1)
+gg.getResults(1000)
+gg.editAll("44613f36h", 4)
+gg.clearResults()
 gg.toast("💢ᴡʜɪᴛᴇʙᴏᴅʏ & ᴅᴀʀᴋꜱᴋʏ💢")
 end
 
@@ -394,16 +391,19 @@ gg.setVisible(false)
 end
 
 function aim()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("h 4E 65 63 6B 62 6F 6E 65 5F 53 70 69 6E 65 31 42 61 73 65", gg.TYPE_BYTE)
-gg.getResults(1000)
-gg.toast("No Results Found..")
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(1)
-gg.editAll("360", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1057048494;1054951342;1053273620", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20000)
+gg.editAll("-20000", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("𝐀𝖎𝖒 𝖋𝖔ν 360")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.30928164e25;-3.69511377e20;1.25206298e-38;0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)--MAID BY ARISE DONT LEAK THE CODE
+gg.refineNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+gg.toast("ALL GUN AIMBOT ON🟢")
 end
 
 local function status(b) return b and "   ⃢♎" or "♓⃢   " end
@@ -420,7 +420,7 @@ local menu = gg.choice({
 "【⚕️】📤𝕾𝖓𝖎𝖕𝖊𝖗 𝕷𝖔𝖔𝖙 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🧊𝐈𝖓𝖛𝖎𝖘𝖎𝖇𝖑𝖊 𝐆𝖑𝖔𝖔 ⁱⁿ ᵍᵃᵐᵉ",
-"【⚕️】🎯𝐀𝖎𝖒 𝕱𝖔ν ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】🎯𝐀𝖎𝖒𝕭𝖔𝖙  ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】💢 Exit"
 }, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝐏𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 if menu == 1 then toggleGhost() end
