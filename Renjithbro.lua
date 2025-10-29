@@ -392,7 +392,14 @@ gg.clearResults()
 gg.toast("💢ɪɴᴠɪꜱɪʙʟᴇ ɢʟᴏᴏ ᴡᴀʟʟ ᴏɴ💢")
 gg.setVisible(false)
 end
-
+function speed()
+gg.setRanges(32)
+gg.searchNumber("h 01 00 00 00 02 2B 07 3D", 1)
+gg.getResults(gg.getResultsCount())
+gg.editAll("h 01 00 00 00 92 E4 70 3D", 1)
+gg.clearResults()
+gg.toast("SPEED 40x ENABLED")
+end
 
 local function status(b) return b and "   ⃢♎" or "♓⃢   " end
 local function HOME()
@@ -408,6 +415,7 @@ local menu = gg.choice({
 "【⚕️】📤𝕾𝖓𝖎𝖕𝖊𝖗 𝕷𝖔𝖔𝖙 𝕷𝖔𝖈𝖆𝖙𝖎𝖔𝖓 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🥼🕶️𝐖𝖍𝖎𝐡𝖊𝖁𝖔𝖉𝐲&𝕯𝖆𝖗𝖐𝕾𝖐𝐲 ⁱⁿ ᵍᵃᵐᵉ",
 "【⚕️】🧊𝐈𝖓𝖛𝖎𝖘𝖎𝖇𝖑𝖊 𝐆𝖑𝖔𝖔 ⁱⁿ ᵍᵃᵐᵉ",
+"【⚕️】⚡𝕾𝖕𝖊𝖊𝖉40𝖝 ⁱⁿ ᵍᵃᵐᵉ",      
 "【⚕️】💢 Exit"
 }, nil, "\n    💢  𝐑𝖊𝖝 𝕷𝖚𝖆 𝕻𝖆𝖎𝖉 𝕾𝖈𝖗𝖎𝖕𝖙 💢   \n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n✘ 𝕺𝐰𝖓𝖊𝖗 : [🧩 > 𝐑ΣX   < 🧩]   ✘\n✘ 𝐏𝖑𝖆𝖙𝖋𝖔𝖗𝖒  : [🎮 > [ 𝖋𝖗𝖊𝖊 𝖋𝖎𝖗𝖊 ] < 🎮]  ✘ \n✘ 𝗘𝘅𝗽𝗶𝗿𝗲   : [⏰ > 𝕾𝖊𝖗𝖛𝖊𝖗 𝖁𝖆𝖘𝖊 < ⏰]✘\n✘ 𝕮𝖑𝖎𝖊𝖓𝖙 : [🩸 >  𝐑𝖊𝖓𝖏𝖎𝖙𝖍  < 🩸]   ✘\n✘ 𝕺𝖊𝖛𝖎𝖈𝖊 : [🦹‍♂️✡️ > 𝕾𝖎𝖓𝖌𝖑𝖊 <✡️]✘\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 if menu == 1 then toggleGhost() end
@@ -421,7 +429,8 @@ if menu == 8 then Antena() end
 if menu == 9 then Loot() end
 if menu == 10 then white() end
 if menu == 11 then invisible() end
-if menu == 12 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
+if menu == 12 then speed() end
+if menu == 13 then  gg.toast("🌐ɢᴏᴏᴅ ʙʏᴇ ᴏᴡɴᴇʀ ᴏꜰ ʀᴇx ʟᴜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ🌐")  os.exit() end
 end
 
 while true do
